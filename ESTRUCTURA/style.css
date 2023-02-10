@@ -6,3 +6,8 @@ header{
     margin: 5px;
     border-radius: 10px;
 }
+
+main{
+    width: 780px;
+    height: 400px;
+}
