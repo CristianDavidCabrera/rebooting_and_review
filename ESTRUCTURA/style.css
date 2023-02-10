@@ -11,3 +11,11 @@ main{
     width: 780px;
     height: 400px;
 }
+nav{
+    background-color: grey;
+    width: 150px;
+    height: 390px;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+}
