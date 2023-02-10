@@ -50,9 +50,16 @@ section{
 }
 aside{
     background-color: grey;
-    width: 450px;
+    width: 150px;
     height: 390px;
     float: left;
+    margin: 5px;
+    border-radius: 10px;
+}
+footer{
+    background-color: grey;
+    width: 770px;
+    height: 50px;
     margin: 5px;
     border-radius: 10px;
 }
