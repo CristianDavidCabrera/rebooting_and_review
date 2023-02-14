@@ -1,0 +1,101 @@
+<!-- 
+This is fourth exercise to review HTML. We had to add classes to some tags.
+Este es el cuarto ejercio para repasar HTML. 
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio_dia_4</title>
+</head>
+<body>
+    <header class="encabezado">
+        <h1>Nueva estructura HTLM5</h1>
+    </header>
+    <main class="container_main">
+        <nav class="container_1">
+            <ol type="i">
+                <li>Cosas aprendidas el <a href="#dia_1">Día 1</a></li>
+                <li>Cosas aprendidas el <a href="#dia_2_1">Día 2</a></li>
+                <li>Cosas aprendidas el <a href="#dia_3">Día 3</a></li>
+            </ol>
+        </nav>
+        <section class="container_2">
+            <article class="dia_1">
+                <h3 id="dia_1">Día 1. Etiquetas básicas. </h3>
+                <p>Hemos aprendido la estructura basica de un archivo HTML: html, body, head.</p>
+                <p>Párrafo</p>
+                <h1>Encabezado h1</h1><img src="images\icons8_encabezado_H1_24.png" alt="headind 1">
+                <h2>Encabezado h2</h2><img src="images\icons8_encabezado_H2_24.png" alt="heading 2">
+                <h3>Encabezado h3</h3><img src="images\icons8_encabezado_H3_24.png" alt="heading 3">
+                <h4>Encabezado h4</h4>
+                <h5>Encabezado h5</h5>
+                <h6>Encabezado h6</h6>
+                <p>Etiqueta<sub>de sub texto.</sub></p>
+                <p>Etiqueta<sup>de sup texto.</sup></p>
+                <p>Salto de carro y lorem ipsum <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/>
+                   Esse pariatur nisi velit quas dolores explicabo<br/>
+                   totam tenetur doloribus soluta ab porro animi voluptatem iusto,<br/> 
+                   saepe perferendis dicta fugiat nam! Recusandae.
+                </p>
+            </article> 
+            <article class="día_2">
+                <h3 id="dia_2_1">Día 2. Listas</h3>
+                <p>Listas desordenadas.</p>
+                <ul class="listas">
+                    <li>Etiqueta para imagenes. <img src="images\icons8_html_50.png" alt="icon-html"></li>
+                    <li>Etiquetas para enlaces. <a href="https://www.google.com" target="_blank"> Google </a></li>
+                    <li>Contenedores. <img src="images/icons8_contenedores_64.png" alt="Contenedores"> </li>
+                </ul>
+                <p>Listas ordenadas</p>
+                <ol class="listas">
+                    <li>Listas ordenadas.</li>
+                    <li>Listas desordenadas.</li>
+                    <li>Listas anidadas.</li>
+                    <li>Listas definidas.</li>
+                    <li>Tablas. Filas, columnas y bordes</li>
+                    <li>Formularios, checkbox, radio buttons y submit button</li>
+                </ol>
+            </article>
+        </section>
+        <section class="container_2">
+            <article class="dia_2">
+                <h3 id="dia_2_2">Día 2. Tablas</h3>
+                <table class="tablas" border="1">
+                    <tr>
+                        <th>Dia 1</th>
+                        <td>Estructura basica de un archivo HTML: html, head, body.</td>
+                        <td>Titulo y encabezado.</td>
+                        <td>Encabezado.</td>
+                        <td>Parrafo.</td>
+                        <td>Salto de carro.</td>
+                        <td>Etiquetas de formato de texto.</td>
+                    </tr>
+                    <tr>
+                        <th>Dia 2</th>
+                        <td>Etiquetas para imagenes.</td>
+                        <td>Etiquetas para enlaces.</td>
+                        <td>Listas ordenadas, desordenadas y definidas.</td>
+                        <td>Listas anidadas.</td>
+                        <td>Tablas.</td>
+                        <td>Formularios.</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+        <aside class="container_3">
+            <div class="dia_3">
+                <h2 id="dia_3">Dia 3. HTML5</h2>
+                <p>Etiquetas comunes en HTML y HTML5</p>
+                <p>Nuevas etiquetas solo para HTML5</p>
+            </div>
+        </aside>
+    </main>
+    <footer class="pie_de_pagina">
+        <h2>Footer</h2>
+        <p>Esto es un pie de página</p>
+    </footer>
+ </body>
+</html>
