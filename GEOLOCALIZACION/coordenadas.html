@@ -1,0 +1,31 @@
+<!--
+    Reviewing HTML5 and Javascript. Geolocalization function.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocalizar</title>
+</head>
+<body>
+    <button onclick="getLocation()">Ubicacion</button>
+    <p id="localizacion"></p>
+    <script> /*This is JS code*/
+        var geo = document.getElementById("localizacion");
+
+        function getLocation(){
+            if(navigator.geolocation){
+                navigator.geolocation.getCurrentPosition(showPosition);
+            }else{
+                geo.innerHTML="No es compatible la geolocalización.";
+            }
+        }
+
+        function showPosition(position){
+            geo.innerHTML="Latitud: " + position.coords.latitude + "<br> Longitud: " + position.coords.longitude;
+        }
+    </script>
+</body>
+</html>
