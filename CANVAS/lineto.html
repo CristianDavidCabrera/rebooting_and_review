@@ -1,0 +1,30 @@
+<!--Reviewing HTML5 and JS. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EjercicioLineto</title>
+</head>
+<body>
+    <canvas  id="canvas" width="150px" height="150px"></canvas>
+    <script type="application/javascript">
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        ctx.beginPath();//Iniciar dibujo
+        ctx.moveTo(25,25);//situar el pincel en el punto (x=25, y=25)
+        ctx.lineTo(105,25);// diujar linea recta hacia el (x=105, y=25)
+        ctx.lineTo(25,105);// diujar linea recta hacia el (x=25, y=105)
+        ctx.closePath();//finalizar dibujo
+        ctx.fill(); //rellenar y dibujar en pantalla
+
+        ctx.beginPath();//Iniciar dibujo
+        ctx.moveTo(125,125);//situar el pincel en el punto (x=25, y=25)
+        ctx.lineTo(125,45);// diujar linea recta hacia el (x=105, y=25)
+        ctx.lineTo(45,125);// diujar linea recta hacia el (x=25, y=105)
+        ctx.closePath();//finalizar dibujo
+        ctx.stroke(); //contorno y dibuar en pantalla
+    </script>
+</body>
+</html>
