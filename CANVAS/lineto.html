@@ -12,13 +12,16 @@
     <script type="application/javascript">
         var canvas = document.getElementById("canvas");
         var ctx = canvas.getContext("2d");
+
+        ctx.fillStyle = "rgba(255,0,0, 0.2)";
         ctx.beginPath();//Iniciar dibujo
         ctx.moveTo(25,25);//situar el pincel en el punto (x=25, y=25)
         ctx.lineTo(105,25);// diujar linea recta hacia el (x=105, y=25)
         ctx.lineTo(25,105);// diujar linea recta hacia el (x=25, y=105)
         ctx.closePath();//finalizar dibujo
         ctx.fill(); //rellenar y dibujar en pantalla
-
+        
+        ctx.strokeStyle = "blue";
         ctx.beginPath();//Iniciar dibujo
         ctx.moveTo(125,125);//situar el pincel en el punto (x=25, y=25)
         ctx.lineTo(125,45);// diujar linea recta hacia el (x=105, y=25)
