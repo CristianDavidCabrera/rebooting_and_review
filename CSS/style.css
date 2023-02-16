@@ -1,3 +1,7 @@
+body {
+    background-color: aliceblue;
+}
+
 main, footer, header {
     background-color: grey;
 }
@@ -5,6 +9,11 @@ main, footer, header {
 h1 {
     background-color: green;
 }
+
 p {
-    background-color: aquamarine;
+    color: whitesmoke;
+}
+
+a {
+    color: inherit;
 }
