@@ -1,1 +1,1 @@
-This project is to reviewing and learning kwnologeds about HTML, HTML5 and CSS.
+This project is to review knowledge of HTML5 , CSS3 and JavaScript.
