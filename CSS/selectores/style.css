@@ -5,6 +5,7 @@
 }
 */
 /* selectores de etiqueta*/
+/*
 h1{
     background-color: indigo;
 }
@@ -14,4 +15,19 @@ h2{
 }
 p{
     text-align: center;
+}
+*/
+/*Seletor de etiquetas multiple*/
+
+h1,h2,h3,h4,h5,h6,p,a {
+    color:red;
+    background-color: black;
+}
+
+p,a {
+    color: whitesmoke;
+}
+
+h1{
+    font-size: 48px;
 }
