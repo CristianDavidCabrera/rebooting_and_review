@@ -6,9 +6,13 @@ body{
 }
 
 h1{
-    font-size: 1ex;
+    font-size: 1ex; /*En relación con la altura x de la fuente actual (rara vez se usa)*/
 }
 
 p{
-    font-size: 1em; /* 1 rem = 12px*/
+    font-size: 1em; /* Relativo al tamaño de fuente del elemento (1em significa 1 vez el tamaño de la fuente actual)*/
+}
+
+h2{
+    font-size: 1rem; /*	Relative to font-size of the root element*/
 }
