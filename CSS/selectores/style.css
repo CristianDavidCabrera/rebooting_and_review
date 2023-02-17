@@ -18,7 +18,7 @@ p{
 }
 */
 /*Seletor de etiquetas multiple*/
-
+/*
 h1,h2,h3,h4,h5,h6,p,a {
     color:red;
     background-color: black;
@@ -30,4 +30,25 @@ p,a {
 
 h1{
     font-size: 48px;
+}
+*/
+
+/*Seletor de clase*/
+.parrafo{
+    font-size: 48px;
+    color: whitesmoke;
+    background-color: black;
+}
+p.parrafo{
+    font-size: 48px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+/*Seletor de ID*/ 
+
+#parrafo_3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: chartreuse;
 }
