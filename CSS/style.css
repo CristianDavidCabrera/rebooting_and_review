@@ -1,3 +1,4 @@
+/*
 body {
     background-color: aliceblue;
 }
@@ -16,4 +17,19 @@ p {
 
 a {
     color: inherit;
+}
+*/
+
+/*Especificidad*/
+/* Por orden de peso !important, style o estilo en linea, id, class, cascada.*/
+
+#identificador {
+    color: lightsalmon;
+}
+.clase {
+    color: lawngreen;
+}
+
+p {
+    color: lightcoral !important;
 }
