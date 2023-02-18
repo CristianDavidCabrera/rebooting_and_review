@@ -58,7 +58,7 @@ h3{
 /***************************/
 /*  UNIDADES PORCENTAJES.  */ 
 /***************************/
-/*Se suelen utilizar en los solo en los contenedores*/
+/*Son un tipo de unidad relativa. Se suelen utilizar solo en los contenedores. Son relativas al padre */
 
 div {
     width: 50%;
