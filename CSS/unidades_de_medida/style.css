@@ -39,7 +39,7 @@ Para dispositivos de bajo dpi, 1px es un píxel de dispositivo (punto) de la pan
 Para impresoras y pantallas de alta resolución, 1px implica múltiples dispositivos de píxeles.
 
 */
-
+/*
 h1{
     font-size: 1in;
 }
@@ -52,4 +52,14 @@ p{
 
 h3{
     font-size: 60pt;
+}
+*/
+
+/***************************/
+/*  UNIDADES PORCENTAJES.  */ 
+/***************************/
+/*Se suelen utilizar en los solo en los contenedores*/
+
+div {
+    width: 50%;
 }
