@@ -1,9 +1,28 @@
 /*
 Por defecto la altura (heigth) depende del contenido.
 */
-#caja{
+#caja_1{
     height: 300px;
     width: 300px;
     background-color: black;
     color: whitesmoke;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#caja_2{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    color: whitesmoke;
+    margin: 100px 100px 100px 100px;
+}
+/*Nota:los margenes se superponen los unos con los otros*/
+#caja_3{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    color: whitesmoke;
+    margin: 200px;
 }
