@@ -1,3 +1,9 @@
+body{
+    background-image: url("foto_los_abrigos.jpg");
+}
+
+
+
 /*Nota: Por defecto la altura (heigth) depende del contenido.*/
 #caja_1 {
     height: 300px;
