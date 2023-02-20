@@ -1,7 +1,5 @@
-/*
-Por defecto la altura (heigth) depende del contenido.
-*/
-#caja_1{
+/*Nota: Por defecto la altura (heigth) depende del contenido.*/
+#caja_1 {
     height: 300px;
     width: 300px;
     background-color: black;
@@ -10,19 +8,45 @@ Por defecto la altura (heigth) depende del contenido.
     margin-bottom: 100px;
     margin-left: 100px;
     margin-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    border-top-color: green;
+    border-bottom-color: yellow;
+    border-left-color: blue;
+    border-right-color: red;
+    border-style: solid;
 }
-#caja_2{
+
+#caja_2 {
     height: 300px;
     width: 300px;
     background-color: black;
     color: whitesmoke;
     margin: 100px 100px 100px 100px;
+    padding: 100px 100px 100px 100px;
+    border-color: blue red;
+    border-width: 10px;
+    border-style: double;
 }
+
 /*Nota:los margenes se superponen los unos con los otros*/
-#caja_3{
+
+#caja_3 {
     height: 300px;
     width: 300px;
     background-color: black;
     color: whitesmoke;
-    margin: 200px;
+    margin: 100px;
+    padding: 100px;
+    border: dotted red 10px;
 }
+
+/*El margen es el espacio por fuera de la caja*/
+/*El padding es el espacio dentro de la caja*/
+/*El border es la línea que encierra al contenido y al padding, separando el padding del margin*/
