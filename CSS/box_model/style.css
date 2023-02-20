@@ -51,9 +51,14 @@
 /*El border es la línea que encierra al contenido y al padding, separando el padding del margin*/
 /*Nota: Por defecto la altura (heigth) depende del contenido.*/
 /*Nota:los margenes se superponen los unos con los otros*/
-
+/*  
 body {
     background-image: url("pollo_popeye.png");
     background-repeat: no-repeat;
     background-position: top right;
+    background-attachment: fixed;
+} */
+body{
+    background: url("pollo_popeye.png") fixed no-repeat  ;
 }
+
