@@ -1,4 +1,4 @@
-#caja_1 {
+/* #caja_1 {
     height: 300px;
     width: 300px;
     background-color: black;
@@ -44,7 +44,7 @@
     margin: 100px;
     padding: 100px;
     border: dotted red 10px;
-}
+} */
 
 /*El margen es el espacio por fuera de la caja*/
 /*El padding es el espacio dentro de la caja*/
