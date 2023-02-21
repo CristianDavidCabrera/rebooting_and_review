@@ -20,9 +20,6 @@ a {
 }
 */
 
-/*Especificidad*/
-/* Por orden de peso de mayor a menor !important, style o estilo en linea, id, class, cascada.*/
-
 #identificador {
     color: lightsalmon;
 }
