@@ -1,7 +1,63 @@
-div{
+/* div {
     width: 100%;
     height: 500px;
     background-color: aquamarine;
     border: 5px red solid;
     position: static;
+} */
+/* .container_1 {
+    width: 100%;
+    height: 500px;
+    background-color: goldenrod;
+    border: 5px red solid;
+    position: static;
+}
+.container_2 {
+    width: 100%;
+    height: 500px;
+    background-color: burlywood;
+    border: 5px red solid;
+    position: static;
+}
+.container_3 {
+    width: 100%;
+    height: 500px;
+    background-color: cadetblue;
+    border: 5px red solid;
+    position: static;
+} */
+
+/* #img_1 {
+    width: 30%;
+    height: auto;
+    border: 5px black solid;
+}
+
+#img_2 {
+    width: 30%;
+    height: auto;
+    border: 5px black solid;
+    position: relative;
+    top: 10em;
+    left: 10em;
+}
+
+#img_3 {
+    width: 30%;
+    height: auto;
+    border: 5px black solid;
+} */
+
+img {
+    border: 5px black solid;
+    width: 300px;
+    height: 300px;
+}
+.relative {
+    border: 5px rgb(101, 14, 223) solid;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
