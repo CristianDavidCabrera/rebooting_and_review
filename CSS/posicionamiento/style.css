@@ -107,7 +107,7 @@ strong{
     text-align: center;
 } */
 
-a {
+/* a {
     display: inline-block;
     background-color: white;
     width: 50px;
@@ -134,4 +134,28 @@ p{
 
 .caja_3 {
     background-color: green;
+} */
+div {
+    display: inline;
+    float: left;
+    margin: 1em;
+    padding: 0.3em;
+    border: 2px solid black;
+    width: 150px;
+    height: 200px;
+}
+
+.caja_1 {
+    background-color: red;
+    overflow: visible;
+}
+
+.caja_2 {
+    background-color: yellow;
+    overflow: hidden;
+}
+
+.caja_3 {
+    background-color: green;
+    overflow: scroll;
 }
