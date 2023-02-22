@@ -135,7 +135,7 @@ p{
 .caja_3 {
     background-color: green;
 } */
-div {
+/* div {
     display: inline;
     float: left;
     margin: 1em;
@@ -158,4 +158,31 @@ div {
 .caja_3 {
     background-color: green;
     overflow: scroll;
+} */
+
+div {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    position: relative;
 }
+
+.caja_1 {
+    background-color: red;
+    left: 50px;
+    z-index: 50;
+}
+
+.caja_2 {
+    background-color: yellow;
+    bottom: 10em;
+    left: 150px;
+    z-index: 20;
+}
+
+.caja_3 {
+    background-color: green;
+    bottom: 22em;
+    left: 300px;
+    z-index: 30;
+} 
