@@ -47,3 +47,24 @@ a:hover {
 a:active {
     background-color: cadetblue;
 }
+
+.element_1::first-line{
+    color: pink;
+}
+.element_1::first-letter {
+    color: red;
+    font-size: 48px;
+    initial-letter:initial;
+}
+
+.fecha::before{
+    content:'día ';
+}
+.fecha::after{
+    content:' año';
+}
+
+/* .element_1::selection {
+    color:coral;
+    background-color: grey;
+} *//*esto está obsoleto y ya no se usa en CSS. Los navegadores actuales no lo soportan*/
