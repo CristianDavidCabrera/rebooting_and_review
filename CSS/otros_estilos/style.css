@@ -68,3 +68,13 @@ a:active {
     color:coral;
     background-color: grey;
 } *//*esto está obsoleto y ya no se usa en CSS. Los navegadores actuales no lo soportan*/
+
+ul{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+ol {
+    list-style-type: lower-roman;
+    list-style-position: outside;
+}
