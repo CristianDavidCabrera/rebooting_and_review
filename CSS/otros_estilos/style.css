@@ -1,0 +1,21 @@
+h1 {
+    color: burlywood;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+p {
+    color: blueviolet;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.parrafo_2 {
+    color: black;
+    font-variant: unset;
+}
+.parrafo_3{
+    font: italic small-caps bold 24px Georgia, serif;
+}
