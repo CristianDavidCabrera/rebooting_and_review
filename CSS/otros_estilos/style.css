@@ -19,3 +19,13 @@ p {
 .parrafo_3{
     font: italic small-caps bold 24px Georgia, serif;
 }
+.texto {
+    color: black;
+    text-align: justify;
+    line-height: 50px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-indent: 2em;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+}
