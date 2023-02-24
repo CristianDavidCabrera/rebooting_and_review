@@ -111,3 +111,11 @@
     font-size: 48px;
     text-shadow: grey 5px 5px 10px;
 }
+
+table{
+   /*  border: 1px solid red; */
+    border-collapse: separate;
+    border-spacing: 10px 20px;
+    empty-cells: show;
+    caption-side: bottom;
+}
