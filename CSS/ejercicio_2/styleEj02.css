@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+main {
+    background-color: slategray;
+    margin: 0 300px;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+}
+p {
+    text-align: justify;
+    padding: 1px 15px;
+    font-size: 24px;
+}
