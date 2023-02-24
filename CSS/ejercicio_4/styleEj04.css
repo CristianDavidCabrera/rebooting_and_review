@@ -3,3 +3,24 @@ th,
 td {
     border: 1px solid;
 }
+
+table{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+    background-color: chocolate;
+    font-size: 24px;
+    padding: 10px;
+}
+
+td {
+    font-weight: bold;
+    background-color: coral;
+    color: crimson;
+    font-size: 20px;
+    padding: 10px;
+}
