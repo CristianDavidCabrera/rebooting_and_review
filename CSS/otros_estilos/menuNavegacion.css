@@ -52,7 +52,7 @@
     color: pink;
 }
 
-.sombra {
+.sombra_1 {
     width: 300px;
     height: 300px;
     border: 1px solid black;
@@ -87,4 +87,27 @@
     position: relative;
     left: 400px;
     bottom: 450px;
+}
+
+.redondo{
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+    margin: 100px;
+    background-color: greenyellow;
+    border-radius: 300px;
+}
+
+.esquina{
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+    margin: 100px;
+    background-color: grey;
+}
+
+.sombra_2{
+    margin: 50px;
+    font-size: 48px;
+    text-shadow: grey 5px 5px 10px;
 }
