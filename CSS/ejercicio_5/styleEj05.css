@@ -1,33 +1,37 @@
-
 th {
     border: 1px solid;
 }
+
 td {
     border-bottom: 1px solid;
     border-right: 1px solid;
     border-left: 1px solid;
 }
-td + td, 
-th + th {
+
+td+td,
+th+th {
     border-left: none;
 }
-
 
 tr td {
     margin: 5px;
     padding: 5px;
 }
-table{
+
+table {
     background-color: whitesmoke;
     border-spacing: 0;
 }
 
-caption{
-    caption-side: bottom;
+caption {
+    margin: 1em;
+    caption-side: top;
 }
-span + span {
+
+span+span {
     font-weight: bold;
 }
-a + span {
+
+a+span {
     text-decoration: line-through;
 }
