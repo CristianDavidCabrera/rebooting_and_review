@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio_7</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header></header>
     <main>
         <h1>Rellena tu CV</h1>
         <form action="/action_page.php">
@@ -25,24 +25,23 @@
             <label for="dni">DNI</label>
             <input type="text" id="dni" name="dni"> <br>
 
-            <span>Sexo</span> <br>
+            <span>Sexo</span>
             <input type="radio" id="hombre" name="sexo" value="Hombre">
             <label for="hombre">Hombre</label> <br>
             <input type="radio" id="mujer" name="sexo" value="Mujer">
             <label for="mujer">Mujer</label> <br>
+            <br>
 
             <label for="myfile">Incluir mi foto</label>
-            <input type="file" id="myfile" name="myfile"> <br>
+            <input class="hidden" type="file" id="myfile" name="myfile"><br>
 
             <input type="checkbox" id="suscripcion" name="suscripcion">
             <label for="suscripcion"> Suscribirme al boletín de novedades</label> <br>
 
             <input type="submit" value="Guardar los cambios">
             <input type="reset" value="borrar datos">
-
         </form>
     </main>
-    <footer></footer>
 </body>
 
 </html>

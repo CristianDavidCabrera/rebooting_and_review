@@ -1,0 +1,49 @@
+body {
+    background-color: silver;
+}
+
+main {
+    margin: 2rem;
+}
+
+form,
+h1 {
+    width: 16.2rem;
+    background-color: whitesmoke;
+    padding: 1rem;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+input,
+label {
+    margin-top: 1rem;
+}
+
+span {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+input[type=reset],
+input[type=submit] {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+input[type=file] {
+    margin-top: 0;
+}
+
+input[type=text],
+input[type=password] {
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+input[type=file].hidden {
+    color: transparent;
+}
