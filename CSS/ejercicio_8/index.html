@@ -6,14 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 8</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main>
         <h1>Formulario estructurado</h1>
-        <form action="">
-            <div>
-                <h2>Datos personales</h2>
+        <form action="" class="container">
+            <h2 class="titulo_1">Datos personales</h2>
+            <div class="container_1">
+              
                 <label for="nombre">Nombre</label>
                 <input type="text" id="nombre" name="nombre"> <br>
 
@@ -23,16 +25,17 @@
                 <label for="dni">DNI</label>
                 <input type="text" id="dni" name="dni"> <br>
             </div>
-            <div>
-                <h2>Datos de conexión</h2>
+            <h2 class="titulo_2">Datos de conexión</h2>
+            <div class="container_2">
+                
                 <label for="user">Nombre de usuario</label>
-                <input type="text" id="user" name="user"> <br>
+                <input type="text" id="user" name="user" required> <br>
 
                 <label for="pswd_1">Contraseña</label>
-                <input type="password" id="pswd_1" name="pswd_1"> <br>
+                <input type="password" id="pswd_1" name="pswd_1" required> <br>
 
                 <label for="pswd_2">Repite la contraseña</label>
-                <input type="password" id="pswd_2" name="pswd_2"> <br>
+                <input type="password" id="pswd_2" name="pswd_2" required> <br>
 
             </div>
         </form>
