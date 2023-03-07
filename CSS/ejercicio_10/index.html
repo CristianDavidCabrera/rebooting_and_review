@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10</title>
+</head>
+
+<body>
+    <main>
+        <h1>Información sobre el producto</h1>
+        <form action="">
+            <div>
+                <h2>Datos básicos</h2> <br>
+
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre"> <br>
+
+                <label for="descripcion">Descripcion</label>
+                <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea> <br>
+
+                <label for="foto">Foto</label>
+                <input type="file" name="foto" id="foto"> <br>
+
+                <input type="checkbox" name="visitas" id="visitas">
+                <label for="visitas">Añadir contador de visitas</label>
+            </div>
+            <br>
+            <div>
+                <h2>Datos económicos</h2> <br>
+
+                <label for="precio">Precio</label>
+                <input type="number" name="precio" id="precio"> <br>
+
+                <label for="impuestos">Impuestos</label>
+                <input list="listaImpuestos" id="impuestos" name="impuestos"> <br>
+                <datalist id="listaImpuestos">
+                    <option value="4%">
+                    <option value="7%">
+                    <option value="16%">
+                    <option value="25%">
+                </datalist>
+
+                <br>
+                <div>
+                    <legend>Promocion</legend> <br>
+                    <label for="ninguno">Ninguno</label>
+                    <input type="radio" name="promocion" id="ninguno"> <br>
+    
+                    <label for="transporte">Transporte gratuito</label>
+                    <input type="radio" name="promocion" id="transporte"><br>
+    
+                    <label for="descuento">Descuento 5%</label>
+                    <input type="radio" name="promocion" id="descuento">
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
