@@ -1,0 +1,27 @@
+.container {
+    border: 2px solid black;
+    width: 24rem;
+    padding: 2rem;
+}
+
+input {
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+label {
+    width: 40%;
+    margin-bottom: 1rem;
+}
+
+.promocion input,
+input[type=checkbox] {
+    width: 10%;
+}
+textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+input[type=file].hidden {
+    color: transparent;
+}

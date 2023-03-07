@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 10</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main>
         <h1>Información sobre el producto</h1>
         <form action="">
-            <div>
+            <div class="container">
                 <h2>Datos básicos</h2> <br>
 
                 <label for="nombre">Nombre</label>
@@ -22,13 +23,13 @@
                 <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea> <br>
 
                 <label for="foto">Foto</label>
-                <input type="file" name="foto" id="foto"> <br>
+                <input type="file" name="foto" id="foto" class="hidden"> <br>
 
                 <input type="checkbox" name="visitas" id="visitas">
                 <label for="visitas">Añadir contador de visitas</label>
             </div>
             <br>
-            <div>
+            <div class="container">
                 <h2>Datos económicos</h2> <br>
 
                 <label for="precio">Precio</label>
@@ -44,16 +45,21 @@
                 </datalist>
 
                 <br>
-                <div>
-                    <legend>Promocion</legend> <br>
-                    <label for="ninguno">Ninguno</label>
-                    <input type="radio" name="promocion" id="ninguno"> <br>
-    
-                    <label for="transporte">Transporte gratuito</label>
-                    <input type="radio" name="promocion" id="transporte"><br>
-    
-                    <label for="descuento">Descuento 5%</label>
-                    <input type="radio" name="promocion" id="descuento">
+
+                <legend>Promocion</legend> <br>
+                <div class="promocion">
+                    <div>
+                        <input type="radio" name="promocion" id="ninguno">
+                        <label for="ninguno">Ninguno</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="promocion" id="transporte">
+                        <label for="transporte">Transporte gratuito</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="promocion" id="descuento">
+                        <label for="descuento">Descuento 5%</label>
+                    </div>
                 </div>
             </div>
         </form>
